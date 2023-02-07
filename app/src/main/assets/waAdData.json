@@ -1,0 +1,48 @@
+{
+  "wa_show_num": 30,
+  "wa_click_num": 5,
+  "wa_open": [
+    {
+      "wa_type": "open",
+      "wa_platform": "admob",
+      "wa_id": "ca-app-pub-3940256099942544/3419835294xx",
+      "wa_weight": 2
+    },
+    {
+      "wa_type": "open",
+      "wa_platform": "admob",
+      "wa_id": "ca-app-pub-3940256099942544/8691691433xx",
+      "wa_weight": 3
+    },
+    {
+      "wa_type": "open",
+      "wa_platform": "admob",
+      "wa_id": "ca-app-pub-3940256099942544/8691691433xx",
+      "wa_weight": 1
+    }
+  ],
+  "wa_list": [
+    {
+      "wa_type": "primitive",
+      "wa_platform": "admob",
+      "wa_id": "ca-app-pub-3940256099942544/2247696110",
+      "wa_weight": 1
+    }
+  ],
+  "wa_result": [
+    {
+      "wa_type": "primitive",
+      "wa_platform": "admob",
+      "wa_id": "ca-app-pub-3940256099942544/2247696110",
+      "wa_weight": 2
+    }
+  ],
+  "wa_back": [
+    {
+      "wa_type": "screen",
+      "wa_platform": "admob",
+      "wa_id": "ca-app-pub-3940256099942544/8691691433",
+      "wa_weight": 2
+    }
+  ]
+}

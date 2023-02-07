@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/con_item"
+    android:layout_width="match_parent"
+    android:layout_height="168dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_wallpaper_ad"
+    android:gravity="center"
+    android:layout_marginBottom="12dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <FrameLayout
+        android:id="@+id/wa_item_ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_wa_item_ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_list_pl"
+        android:visibility="visible" />
+</FrameLayout>

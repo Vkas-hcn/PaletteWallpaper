@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:binding="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="presenter"
+            type="com.vkas.wallpaperapp.waui.main.MainActivity.WaClick" />
+        <variable
+            name="sidebarShowsWa"
+            type="Boolean"
+            android:value="false" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".waui.main.MainActivity">
+        <include
+            android:id="@+id/main_title_wa"
+            layout="@layout/layout_toolbar_wa" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_title_wa" />
+
+<!--        <include-->
+<!--            android:id="@+id/in_home_navigation"-->
+<!--            layout="@layout/layout_main_navigation"-->
+<!--            android:visibility="@{sidebarShowsWa ? View.VISIBLE : View.GONE}"-->
+<!--            binding:presenter="@{presenter}" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
